@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Prompt:wght@700&display=swap');
+
+// Set your brand colors
+$green1: #11d458;
+$green2: #1ec75c;
+$green3: #27cf65;
+$slate-black: #212121;
+
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+// Update Bulma's global variables
+$family-sans-serif: "Cario", sans-serif;
+$title-family: "Prompt", sans-serif;
+$grey-dark: $slate-black;
+$grey-light: $beige-light;
+$primary: $green3;
+$link: $pink;
+$widescreen-enabled: true;
+$fullhd-enabled: true;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+
+// Import only what you need from Bulma
+@import "../bulma/sass/utilities/_all.sass";
+@import "../bulma/sass/base/_all.sass";
+@import "../bulma/sass/elements/button.sass";
+@import "../bulma/sass/elements/container.sass";
+@import "../bulma/sass/elements/title.sass";
+@import "../bulma/sass/form/_all.sass";
+@import "../bulma/sass/components/navbar.sass";
+@import "../bulma/sass/layout/hero.sass";
+@import "../bulma/sass/layout/section.sass";
+@import "../bulma/sass/layout/hero.sass";
+@import "../bulma/sass/helpers/typography.sass";
+
+@import "../bulma/sass/grid/columns.sass";
+
+.container.is-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.index-right-border {
+    border-right: 15px solid $slate-black;
+}
+
+$border-bottom-radius: 25px;
+.index-title {
+    /* background-color: $slate-black; */
+    background-color: rgba(33,33,33, 0.6);
+    color: white;
+    padding: 14px;
+    border-bottom-left-radius: $border-bottom-radius;
+    border-bottom-right-radius: $border-bottom-radius;
+    border: 5px solid $slate-black;
+    border-top: none;
+}
+
+$index-background-image-url: url("../imgs/background.jpg");
+
+section {
+    background-image: $index-background-image-url;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
