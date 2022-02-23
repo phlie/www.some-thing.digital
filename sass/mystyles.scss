@@ -4,6 +4,8 @@
 $green1: #11d458;
 $green2: #1ec75c;
 $green3: #27cf65;
+$red1: #e86241;
+$red2: #eb5834;
 $slate-black: #212121;
 
 $pink: #FA7C91;
@@ -16,7 +18,7 @@ $family-sans-serif: "Cario", sans-serif;
 $title-family: "Prompt", sans-serif;
 $grey-dark: $slate-black;
 $grey-light: $beige-light;
-$primary: $green3;
+$primary: $red2;
 $link: $pink;
 $widescreen-enabled: true;
 $fullhd-enabled: true;
@@ -49,22 +51,22 @@ $input-shadow: none;
 }
 
 .index-right-border {
-    border-right: 15px solid $slate-black;
+    border-right: 15px solid white;
 }
 
 $border-bottom-radius: 25px;
 .index-title {
     /* background-color: $slate-black; */
-    background-color: rgba(33,33,33, 0.6);
+    background-color: rgba(255,255,255, 0.15);
     color: white;
     padding: 14px;
     border-bottom-left-radius: $border-bottom-radius;
     border-bottom-right-radius: $border-bottom-radius;
-    border: 5px solid $slate-black;
+    border: 5px solid white;
     border-top: none;
 }
 
-$index-background-image-url: url("../imgs/background.jpg");
+$index-background-image-url: url("../imgs/background.png");
 
 section {
     background-image: $index-background-image-url;
