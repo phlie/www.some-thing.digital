@@ -66,13 +66,21 @@ $border-bottom-radius: 25px;
     border-top: none;
 }
 
-$index-background-image-url: url("../imgs/background.png");
+$index-background-image-url: url("/imgs/background.png");
+$logo-background-image-url: url("/imgs/logo.png");
 
 section {
-    background-image: $index-background-image-url;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.index-main {
+    background-image: $index-background-image-url;
+}
+
+.index-logo {
+    background-image: $logo-background-image-url;
 }
 

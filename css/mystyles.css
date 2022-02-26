@@ -5313,8 +5313,13 @@ a.navbar-item,
   border-top: none; }
 
 section {
-  background-image: url("../imgs/background.png");
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat; }
+
+.index-main {
+  background-image: url("/imgs/background.png"); }
+
+.index-logo {
+  background-image: url("/imgs/logo.png"); }
