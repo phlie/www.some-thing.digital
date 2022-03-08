@@ -7,24 +7,22 @@ $green3: #27cf65;
 $red1: #e86241;
 $red2: #eb5834;
 $slate-black: #212121;
+$off-white: #dddddd;
 
-$pink: #FA7C91;
-$brown: #757763;
-$beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
 
 // Update Bulma's global variables
 $family-sans-serif: "Cario", sans-serif;
 $title-family: "Prompt", sans-serif;
+$subtitle-family: $title-family;
 $grey-dark: $slate-black;
-$grey-light: $beige-light;
+$grey-light: $off-white;
 $primary: $red2;
-$link: $pink;
+$link: $slate-black;
 $widescreen-enabled: true;
 $fullhd-enabled: true;
 
 // Update some of Bulma's component variables
-$body-background-color: $beige-lighter;
+$body-background-color: $grey-light;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
@@ -33,12 +31,8 @@ $input-shadow: none;
 // Import only what you need from Bulma
 @import "../bulma/sass/utilities/_all.sass";
 @import "../bulma/sass/base/_all.sass";
-@import "../bulma/sass/elements/button.sass";
 @import "../bulma/sass/elements/container.sass";
 @import "../bulma/sass/elements/title.sass";
-@import "../bulma/sass/form/_all.sass";
-@import "../bulma/sass/components/navbar.sass";
-@import "../bulma/sass/layout/hero.sass";
 @import "../bulma/sass/layout/section.sass";
 @import "../bulma/sass/layout/hero.sass";
 @import "../bulma/sass/helpers/typography.sass";
